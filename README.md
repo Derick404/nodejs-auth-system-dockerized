@@ -1,1 +1,0 @@
-# nodejs-auth-system-dockerized
