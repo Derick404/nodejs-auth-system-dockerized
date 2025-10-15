@@ -28,19 +28,19 @@ A secure **user authentication API** built with **Node.js**, **Express**, **bcry
 ##  Project Structure
 
 
-nodejs-jwt-auth-docker/
-│
-├── backend/
-│ ├── server.js
-│ ├── package.json
-│ ├── .env
-│ ├── Dockerfile
-│ └── docker-compose.yml
-│
-└── frontend/
-├── index.html
-├── dashboard.html
-└── script.js
+                                              nodejs-jwt-auth-docker/
+                                                │
+                                                ├── backend/
+                                                │ ├── server.js
+                                                │ ├── package.json
+                                                │ ├── .env
+                                                │ ├── Dockerfile
+                                                │ └── docker-compose.yml
+                                                │
+                                                └── frontend/
+                                                ├── index.html
+                                                ├── dashboard.html
+                                                └── script.js
 
 ---
 
@@ -74,3 +74,4 @@ npm run dev
 docker build -t nodejs-jwt-auth .
 # 6. run container
 docker run -p 2000:2000 nodejs-jwt-auth
+
